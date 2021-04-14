@@ -5,7 +5,7 @@ import dash_html_components as html
 from dash.dependencies import Input,Output
 import dash_auth
 
-USERNAME_PASSWORD_PAIRS = [['manish@fecdirect.org','test@123'] , ['sanga','sanga@123']]
+USERNAME_PASSWORD_PAIRS = [['manish','test@123'] , ['sanga','sanga@123']]
 
 
 app = dash.Dash()
